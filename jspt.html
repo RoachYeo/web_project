@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>My web Page</title>
+<link href="../css/global.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+alert('hello world');
+</script>
+
+<script type="text/javascript">
+var correct=0;
+var age=prompt('관리자의 나이는? 만 나이로 적어주세요','');
+if (age==24){
+	correct++;
+	alert('정답입니다! 총 맞춘 갯수:'+correct);
+} else {alert('틀렸습니다! 정답은 '+age+' 입니다. 총 맞춘 갯수'+correct); }
+var sports=prompt('관리자가 제일 좋아하는 스포츠는?','한국어로 적어주세요');
+if (sports=='미식축구'){
+	correct++;
+	alert('정답입니다! 총 맞춘 갯수:'+correct);
+} else {alert('틀렸습니다! 정답은 '+sports+' 입니다. 총 맞춘 갯수'+correct); }
+
+</script>
+
+</head>
+
+<body>
+<h1>HTML</h1>
+<h2>HTML</h2>
+<strong>hey, can you see <u>this</u>?</strong>
+
+<ul>
+	<li>html</li>
+	<li>css</li>
+	<li>javascript</li>
+</ul>
+
+<ol>
+	<li>html</li>
+	<li>css</li>
+	<li>javascript</li>
+</ol>
+
+<table border="1">
+	<tr>
+		<td>head</td>
+		<td>33</td>
+	</tr>
+	<tr>
+		<td>head</td>
+		<td>33</td>
+	</tr>
+	<tr>
+		<td>head</td>
+		<td>33</td>
+	</tr>
+</table>
+
+<script type="text/javascript">
+document.write('<p>hello!!</p>');
+var firstName ='Cookie';
+var lastName ='Monster';
+document.write('<p>');
+document.write(firstName+' '+lastName);
+document.write('</p>')
+</script>
+
+<script type="text/javascript">
+var name=prompt('What is your name?','name');
+document.write('<p>welcome '+name+' nice to meet you</p>');
+</script>
+
+
+<script type="text/javascript">
+var list=['russell','landry','obj','lockett','mahomes']
+document.write('<p>'+list+'</p>')
+document.write(list[2]+'<br>')
+</script>
+
+<p>
+<a href="http://www.naver.com">네이버로 이동하기</a>
+<a href="http://www.naver.com" target="_blank" title="포털사이트">새로운탭을 열어 네이버로 이동하기</a>
+</p>
+<img src="rie.jpg" width="200">
+
+</body>
+
+</html>
